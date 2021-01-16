@@ -14,7 +14,8 @@ body {
   color: $text;
   font-family: $font-primary;
 
-  max-width: 780px;
+  max-width: 700px;
+  padding: 0px 40px;
   margin: 80px auto;
 
   font-weight: 300;
@@ -62,15 +63,14 @@ a:hover {
   border-color: $highlight;
 }
 
-nav a,
-section a {
+nav a {
   border-bottom: 2px solid $transparent;
   padding-bottom: 4px;
   transition: border-color 300ms ease;
-}
 
-section a:hover {
-  border-color: $transparent;
+  &.selected {
+    border-color: $highlight;
+  }
 }
 
 .readmore {
@@ -95,7 +95,8 @@ section a:hover {
   }
 }
 
-.post-body {
+.post-body,
+.page-body {
   p {
     max-width: 560px;
     margin-bottom: 30px;
@@ -103,7 +104,7 @@ section a:hover {
   }
 
   img {
-    max-width: 780px;
+    max-width: 700px;
   }
 
   h3 {
@@ -121,4 +122,74 @@ section a:hover {
   background-color: $highlight;
   border-radius: 50%;
   z-index: -1;
+  opacity: 1;
+  transition: opacity 300ms ease;
+}
+
+@media screen and (max-width: 1370px) {
+  .circle {
+    bottom: -200px;
+    right: -200px;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  body {
+    margin: 40px auto;
+  }
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .post-body,
+  .page-body {
+    p {
+      width: 100%;
+      max-width: 100%;
+    }
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .circle {
+    opacity: 0.05;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 30px auto;
+    padding: 0px 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+
+  section > h1 {
+    border-bottom: 4px solid $text;
+    padding-bottom: 32px;
+  }
+
+  .blog-post a {
+    margin: 20px 0 0 0;
+  }
 }
