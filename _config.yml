@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: hello@murphytrueman.com
 description: A blog all about Japan!
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: murphytrueman
 github_username: murphytrueman
 theme: minima
