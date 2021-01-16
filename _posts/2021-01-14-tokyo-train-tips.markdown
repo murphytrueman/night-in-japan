@@ -27,7 +27,9 @@ The location signs are located on the wall of the platform opposite where you st
 
 When you arrive on the platform in time to see your train pulling out don’t worry, the subway is so frequent that I usually don’t even check the timetable.  It’s inevitable that sometimes you’ll time it perfectly and others you’ll just miss.  The next train will be along in a few minutes.
 
-The exception to be aware of it that the subway system in Tokyo isn’t 24/7 so it pays to check your line to make sure you aren’t stuck with a very expensive taxi fare at the end of the night.  Our experience has been that the Tokyo subway system runs,
+The exception to be aware of it that the subway system in Tokyo isn’t 24/7 so it pays to check your line to make sure you aren’t stuck with a very expensive taxi fare at the end of the night.  Our experience has been that the Tokyo subway system runs.
+
+![blog-3b.jpg](/uploads/blog-3b.jpg)
 
 ### When it all goes wrong
 
